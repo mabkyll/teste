@@ -1,0 +1,105 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF"-8>
+		<meta property="og:type" content="website" />
+
+	    <title>prova eletronica</title>
+		
+	<link rel="stylesheet"  type="text/css" href="estilo.css">
+   <!--fontaweome cnd link para alguma coisa-->
+  
+</head>
+<body>
+
+
+
+	<!-- Botão que inicia o quiz-->
+	<div class="start_btn"><button>Iniciar Quiz!</button></div>
+
+	<!-- caixa de informações -->
+	<div class="info_box">
+		<div class="info-title"><span>Veja algumas regras do Quiz:</span></div>
+
+		<div class="info-list">
+			<div class="info">1. Fique atento, pois você terá apenas <span> 15 segundos </span> para responder cada
+				questão. </div>
+			<div class="info">2. Depois que selecionar sua resposta, você não poderá alterar sua resposta. </div>
+			<div class="info">3. Lembrando que você não poderá selecionar nenhuma opção após o término do tempo. </div>
+			<div class="info">4. Não saia do sair do questionário enquanto estiver respondendo.(/div)
+				<div class="info">5. Os ponto serão com base em suas respostas se eleas estiverem corretas.</div>
+			</div>
+
+			<div class="buttons">
+				<button class="quit">Sair do questionário</button>
+				<button class="restart">Continue</button>
+			</div>
+
+		</div>
+	</div>
+
+	<!-- caixa de perguntas -->
+	<div class="quiz_box">
+		<header>
+			<div class="title">Questionário de teste</div>
+			<div class="timer">
+				<div class="time_left_txt">Tempo restante</div>
+				<div class="timer_sec">15</div>
+			</div>
+			<div class="time_line"></div>
+		</header>
+
+		<section>
+			<div class="que_txt">
+				<!-- Aqui coloca a pergunta do JavaScript -->
+			</div>
+
+			<div class="option_list">
+				<!-- Aqui coloca opções do JavaScript -->
+			</div>
+
+		</section>
+
+		<!-- Rodapé da caixa de perguntas-->
+		<footer>
+			<div class="total_que">
+				<!-- Aqui coloca o número da contagem de perguntas do JavaScript -->
+			</div>
+
+			<button class="next_btn">Próxima questão</button>
+
+		</footer>
+	</div>
+
+
+	<!-- caixa de resultados -->
+	<div class="result_box">
+		<div class="icon">
+			<i class="fas fa-crown"></i>
+		</div>
+		<div class="complete_text">Questionário concluido!</div>
+        <div class="score_text">
+           <!-- Aqui inseri o resultado da pontuação do JavaScript -->
+        </div>
+
+		<div class="buttons">
+			<button class="restart">Refazer Questionário</button>
+			<button class="quit">Sair</button>
+			</div>			
+
+	</div>
+    <script src="questions.js"></script>
+	<script src="script.js"></script>
+	<article>
+	
+		<footer>
+			<p>
+			 <h1>Quiz sobre o: </h1>  
+			 
+			</p>
+			<h2>BANCO MUNDIAL</h2>
+		</footer>
+	</article>
+
+</body>
+</html>
